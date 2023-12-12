@@ -5,12 +5,15 @@ import Button from "../ui/Button";
 const AllLinks = () => {
   return (
     <>
-      <Link className="text-lg text-[04091E] font-medium font-urbanist" href="">
+      <Link
+        className="text-lg text-[04091E] font-medium font-urbanist"
+        href="/blog"
+      >
         Blog
       </Link>
-      <Link href="">Pricing</Link>
-      <Link href="">Contact</Link>
-      <Link href="">FAQ</Link>
+      <Link href="/price">Pricing</Link>
+      <Link href="/contact">Contact</Link>
+      <Link href="/faq">FAQ</Link>
       <div className="flex md:ml-5 flex-row gap-5 text-lg text-[04091E] font-medium font-urbanist items-center">
         <Link href="">
           <button className="py-2 px-3 border border-gray-400 rounded-md">

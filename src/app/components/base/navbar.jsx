@@ -35,7 +35,9 @@ const Navbar = ({ children }) => {
               </label>
             </div>
             <div className="flex-1">
-              <Image src={logo} width={100} height={20} />
+              <Link href="/">
+                <Image src={logo} width={100} height={20} />
+              </Link>
             </div>
             <div className="flex-none hidden lg:block">
               <ul className="menu gap-5 menu-horizontal text-lg text-[04091E] font-medium font-urbanist items-center">
