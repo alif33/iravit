@@ -16,17 +16,30 @@ const Members = () => {
           </h3>
           <div className="flex mt-12 flex-row gap-6 justify-between">
             <MemberCard
+              btnColor="text-white"
+              btnBg={"bg-[#FFFFFF33] "}
+              nameColor="text-white"
+              desiColor="text-white"
+              bg="bg-brand-1 "
               image={memberImage1}
               name="Jonathon Rees"
               designation="Chief Executive"
             />
             <MemberCard
+              btnColor="grey-900"
+              nameColor="text-grey-900"
+              btnBg={"bg-grey-200"}
               image={memberImage2}
+              desiColor="text-secondary-2"
               name="Jonathon Rees"
               designation="Chief Executive"
             />
             <MemberCard
+              btnColor="grey-900"
+              btnBg={"bg-grey-200"}
+              nameColor="text-grey-900"
               image={memberImage3}
+              desiColor="text-secondary-2"
               name="Jonathon Rees"
               designation="Chief Executive"
             />
