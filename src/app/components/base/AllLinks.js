@@ -18,7 +18,12 @@ const AllLinks = () => {
           </button>
         </Link>
         <Link href="">
-          <Button text="Get Started Free" />
+          <Button
+            color={"text-white"}
+            bgColor={"bg-brand-1"}
+            btnPadding={"py-3 px-6"}
+            text="Get Started Free"
+          />
         </Link>
       </div>
     </>

@@ -1,8 +1,10 @@
 import React from "react";
 
-const Button = ({ text }) => {
+const Button = ({ text, bgColor, color, btnPadding }) => {
   return (
-    <button className="py-3 px-6 border font-medium text-white text-sm bg-brand-1 rounded-md">
+    <button
+      className={`${btnPadding}  font-medium ${color} text-sm ${bgColor} rounded-md`}
+    >
       {text}
     </button>
   );
