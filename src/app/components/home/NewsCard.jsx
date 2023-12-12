@@ -23,13 +23,12 @@ const NewsCard = ({ image, title, desc, author, date }) => {
             {title}
           </h4>
           <p className="text-sm font-normal font-urbanist text-grey-600">
-            {" "}
-            {desc}{" "}
+            {desc}
           </p>
+          <button className="mt-5 font-medium text-sm text-grey-500 news-button">
+            Read Full Artcile
+          </button>
         </div>
-        <button className="mt-5 font-medium text-sm text-grey-500 news-button">
-          Read Full Artcile
-        </button>
       </div>
     </div>
   );
