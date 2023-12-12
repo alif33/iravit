@@ -15,7 +15,7 @@ const PackageCard = ({
 }) => {
   return (
     <div
-      className={`shadow-md ${cardColor} shadow-base-300 flex flex-col justify-between w-full py-12 px-8 ${cardBg}`}
+      className={`shadow-md ${cardColor} shadow-base-300 flex flex-col justify-between w-full py-10 px-8 ${cardBg}`}
     >
       <div className="">
         <div className="pb-8 border-b border-gray-300 mb-8">
