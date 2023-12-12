@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../ui/Button";
 import Image from "next/image";
+import "./about.css";
 import aboutIcon1 from "../../../assets/about/icon1.png";
 import aboutIcon2 from "../../../assets/about/icon2.png";
 import aboutImage1 from "../../../assets/about/about1.png";
@@ -9,10 +10,9 @@ import aboutImage3 from "../../../assets/about/about3.png";
 import Container from "../ui/Container";
 import aboutBackgroundImage from "../../../assets/about/about-background.png";
 
-
 const About = () => {
   return (
-    <div className="w-full h-full py-16 my-10 ">
+    <div className="w-full h-full py-20 my-10 about-container ">
       <Container>
         <div className=" gap-16 flex flex-row items-end">
           {/* Left */}
