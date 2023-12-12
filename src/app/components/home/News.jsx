@@ -2,8 +2,8 @@ import React from "react";
 import Container from "../ui/Container";
 import NewsCard from "./NewsCard";
 import newsImage1 from "../../../assets/news/news1.png";
-import newsImage2 from "../../../assets/news/news1.png";
-import newsImage3 from "../../../assets/news/news1.png";
+import newsImage2 from "../../../assets/news/news2.png";
+import newsImage3 from "../../../assets/news/news3.png";
 
 const News = () => {
   return (
