@@ -22,6 +22,7 @@ module.exports = {
         "greyscale-700": "#394150",
         "greyscale-800": "#212936",
         "greyscale-900": "#0B0A0F",
+        "greyscale-950": "#04091E",
       },
 
       fontSize: {
