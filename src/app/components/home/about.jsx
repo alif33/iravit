@@ -9,12 +9,6 @@ import aboutImage3 from "../../../assets/about/about3.png";
 import Container from "../ui/Container";
 import aboutBackgroundImage from "../../../assets/about/about-background.png";
 
-const style = {
-  backgroundImage: `url(${aboutImage3})`,
-  backgroundSize: "cover",
-  backgroundPosition: "center",
-  height: "100vh", // Adjust the height as needed
-};
 
 const About = () => {
   return (
