@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "../ui/Container";
 import Image from "next/image";
-import logo from "../../../assets/logo.png";
+import logo from "../../../assets/footer-logo.png";
 import { IoCallOutline } from "react-icons/io5";
 import { FooterNavLinks, FooterSocialLinks } from "./FooterLinks";
 
@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="flex flex-row justify-between items-center w-full gap-10">
           {/* left footer */}
           <div className="w-3/12">
-            <Image src={logo} className="w-[95px] h-[44px] invert" />
+            <Image src={logo} className="w-[95px] h-[44px] " />
             <p className="my-10">
               We create amazing Webflow templatesfor creative people all around
               the world.
