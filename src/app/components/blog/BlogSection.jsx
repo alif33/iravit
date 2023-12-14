@@ -10,7 +10,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const BlogSection = ({ sectionTitle }) => {
   return (
-    <div className="my-32">
+    <div className="">
       <Container>
         <div className="flex flex-row justify-between">
           <BlogTitle sectionTitle={sectionTitle} />

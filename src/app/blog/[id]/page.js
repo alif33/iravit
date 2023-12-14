@@ -96,8 +96,10 @@ const BlogDetails = ({
             ]}
           />
           <PostFooter author={"Brian Aude"} date={"may 12, 2023"} />
-
-          <BlogSection sectionTitle={"Similer Posts"} />
+          <div className="my-16">
+            {" "}
+            <BlogSection sectionTitle={"Similer Posts"} />
+          </div>
         </div>
       </Container>
     </div>

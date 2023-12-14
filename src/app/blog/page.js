@@ -7,7 +7,7 @@ const BlogPage = () => {
   return (
     <div className="my-28">
       <BlogHeader />
-      <div className="flex my-24 flex-col gap-24">
+      <div className="flex  flex-col gap-24">
         <BlogSection sectionTitle={"Latest blog post"} />
         <BlogSection sectionTitle={"Features blog post"} />
       </div>

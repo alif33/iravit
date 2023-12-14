@@ -8,7 +8,7 @@ const BlogHeader = () => {
     <div className="my-20">
       <Container>
         <div className="mx-auto max-w-3xl text-center">
-          <h3 className="text-brand-2 mb-8 text-center font-poppins text-h3">
+          <h3 className="text-brand-2 mb-8 text-center font-poppins text-h3 font-semibold">
             Special Blogs for you
           </h3>
           <p className=" mb-20 text-lg  font-urbanist text-grey-500">
