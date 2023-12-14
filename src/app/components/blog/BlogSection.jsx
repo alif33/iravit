@@ -5,16 +5,23 @@ import BlogCard from "./BlogCard";
 import newsImage1 from "../../../assets/news/news1.png";
 import newsImage2 from "../../../assets/news/news2.png";
 import newsImage3 from "../../../assets/news/news3.png";
+import { IoIosArrowBack } from "react-icons/io";
+import { IoIosArrowForward } from "react-icons/io";
 
 const BlogSection = ({ sectionTitle }) => {
   return (
     <div className="">
       <Container>
-        <div className="">
-                  <BlogTitle sectionTitle={sectionTitle} />
-                  <div className="">
-                      <button className=""></button>
-                  </div>
+        <div className="flex flex-row justify-between">
+          <BlogTitle sectionTitle={sectionTitle} />
+          <div className="flex flex-row gap-3">
+            <button className="text-lg flex items-center justify-center bg-grey-200 px-3 rounded-full">
+              <IoIosArrowBack alignmentBaseline="central" />
+            </button>
+            <button className="text-lg flex items-center justify-center shadow-md shadow-grey-300 px-3 rounded-full">
+              <IoIosArrowForward />
+            </button>
+          </div>
         </div>
         <div className="flex mt-7 flex-row gap-5">
           <BlogCard
