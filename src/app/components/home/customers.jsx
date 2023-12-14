@@ -16,11 +16,11 @@ const Customers = () => {
           <span className="font-bold underline">1000+</span> customers
         </p>
         <div className="flex flex-row border-b border-gray-200 py-5 justify-between items-center">
-          <Image src={customerImage5} />
-          <Image src={customerImage4} />
-          <Image src={customerImage1} />
-          <Image src={customerImage2} />
-          <Image src={customerImage3} />
+          <Image src={customerImage5} alt={"Customer Image"} />
+          <Image src={customerImage4} alt={"Customer Image"} />
+          <Image src={customerImage1} alt={"Customer Image"} />
+          <Image src={customerImage2} alt={"Customer Image"} />
+          <Image src={customerImage3} alt={"Customer Image"} />
         </div>
       </div>
     </Container>

@@ -32,7 +32,7 @@ const Hero = () => {
 
         {/* Hero Right */}
         <div className="flex-1 flex justify-end">
-          <Image className="w-10/12" src={heroImage} />
+          <Image className="w-10/12" src={heroImage} alt="Hero Image" />
         </div>
       </div>
     </Container>

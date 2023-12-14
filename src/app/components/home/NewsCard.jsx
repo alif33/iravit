@@ -5,7 +5,7 @@ import "./news.css";
 const NewsCard = ({ image, title, desc, author, date }) => {
   return (
     <div className="w-full news-container hover:bg-white hover:shadow-2xl hover:shadow-base-300 cursor-pointer duration-500 ease-in-out">
-      <Image src={image} alt="" className="w-full h-[280px]" />
+      <Image src={image} alt="News Image" className="w-full h-[280px]"  />
       <div className="w-full px-5 py-4">
         <div className="flex flex-row justify-between">
           <div className="flex flex-row gap-2 items-center">

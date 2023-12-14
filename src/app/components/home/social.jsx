@@ -16,11 +16,11 @@ const Social = () => {
           {/* Social Left */}
           <div className="flex flex-col w-full flex-1 gap-6">
             <div className="flex flex-row flex-1 w-full gap-6 overflow-hidden">
-              <Image className='col-span-2  w-auto' src={socialImage1} />
-              <Image className='col-span-3  pt-16 w-full' src={socialImage2} />
+              <Image className='col-span-2  w-auto' src={socialImage1}  alt='Social Image' />
+              <Image className='col-span-3  pt-16 w-full' src={socialImage2}  alt='Social Image' />
               </div>
            <div className="flex-1">
-             <Image className='col-span-5  w-full' src={socialImage3} />
+             <Image className='col-span-5  w-full' src={socialImage3} alt='Social Image'  />
            </div>
           </div>
           {/* Social Right */}

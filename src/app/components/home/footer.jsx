@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="flex flex-row justify-between items-center w-full gap-10">
           {/* left footer */}
           <div className="w-3/12">
-            <Image src={logo} className="w-[95px] h-[44px] " />
+            <Image src={logo} className="w-[95px] h-[44px] " alt={"Footer logo"} />
             <p className="my-10">
               We create amazing Webflow templatesfor creative people all around
               the world.

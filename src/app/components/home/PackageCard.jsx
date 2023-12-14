@@ -33,7 +33,7 @@ const PackageCard = ({
         <div className="flex flex-col gap-4 justify-center mb-5">
           {list.map((item, index) => (
             <div key={index} className="flex  flex-row gap-2 items-center">
-              <Image src={iconImage} />
+              <Image src={iconImage} alt="Package Card" />
               <p className="text-[16px] font-semibold  leading-7 font-urbanist">
                 {item.name}
               </p>

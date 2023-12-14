@@ -15,7 +15,7 @@ const MemberCard = ({
 }) => {
   return (
     <div className="w-full">
-      <Image className="h-96 w-full" src={image} />
+      <Image className="h-96 w-full" src={image} alt="Member Image" />
       <div
         className={` py-4 shadow-2xl  shadow-base-400 px-5 flex flex-row justify-between ${bg}`}
       >

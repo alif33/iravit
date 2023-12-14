@@ -12,7 +12,7 @@ const Navbar = ({ children }) => {
         {/* Navbar Left */}
         <div className="flex-1">
           <Link href="/">
-            <Image src={logo} width={100} height={20} />
+            <Image src={logo} width={100} height={20} alt={"logo"}  />
           </Link>
         </div>
         {/* Navbar Right */}

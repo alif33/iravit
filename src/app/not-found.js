@@ -7,7 +7,7 @@ import Link from "next/link";
 const NotFoundPage = () => {
   return (
     <div className="flex flex-col justify-center items-center w-full my-20">
-      <Image src={pageNoteFoundImage} />
+      <Image src={pageNoteFoundImage} alt="Page not found" height="auto" />
 
       <h1 className="font-poppins text-[200px] font-semibold text-brand-2 leading-tight">
         404
