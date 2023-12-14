@@ -5,13 +5,15 @@ import Image from "next/image";
 import iconImage from "../../../assets/package-icon.png";
 import serviceImage from "../../../assets/service.png";
 
-const Services = ({ list, title, subtitle }) => {
+const Services = ({ list, title, subtitle, titleColor }) => {
   return (
     <div className="mb-20 mt-32">
       <Container>
         <div className="flex flex-row justify-between gap-24">
           <div className="w-4/12">
-            <h3 className="text-h3 font-poppins font-semibold text-grey-900 mb-3 ">
+            <h3
+              className={`text-h3 font-poppins font-semibold ${titleColor} mb-3 `}
+            >
               {title}
             </h3>
             <p className="text-lg mb-6  font-urbanist text-grey-500">

@@ -6,6 +6,7 @@ const PricingPage = () => {
     <div>
       <Packages />
       <Services
+        titleColor={"text-grey-900"}
         title={"Why choose us?"}
         subtitle={
           "Consistent quality and experience across all platforms and devices."
