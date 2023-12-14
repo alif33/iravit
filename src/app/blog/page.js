@@ -1,14 +1,16 @@
 import React from "react";
 import Container from "../components/ui/Container";
+import BlogHeader from "../components/blog/BlogHeader";
+import BlogSection from "../components/blog/BlogSection";
 
 const BlogPage = () => {
   return (
-    <div className="h-[28.5vh] flex items-center justify-center">
-      <Container>
-        <h1 className="text-5xl text-center border-b-8 border-brand-2 text-brand-1 font-extrabold py-5">
-          Blog Page
-        </h1>
-      </Container>
+    <div className="my-28">
+      <BlogHeader />
+      <div className="flex my-24 flex-col gap-24">
+        <BlogSection sectionTitle={"Latest blog post"} />
+        <BlogSection sectionTitle={"Features blog post"} />
+      </div>
     </div>
   );
 };
