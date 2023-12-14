@@ -25,7 +25,7 @@ const BlogDetails = ({
 }) => {
   console.log(params);
   return (
-    <div>
+    <div className="mt-20">
       <Container>
         {/* top */}
         <PostHeader />
