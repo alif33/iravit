@@ -1,6 +1,5 @@
-import Packages from "../components/home/packages";
-import Container from "../components/ui/Container";
-import Services from "../components/ui/Services";
+import Packages from "@/app/components/home/packages";
+import Services from "@/app/components/ui/Services";
 
 const PricingPage = () => {
   return (

@@ -1,5 +1,4 @@
-import React from "react";
-import Container from "../components/ui/Container";
+import Container from "@/app/components/ui/Container";
 
 const FaqPage = () => {
   return (

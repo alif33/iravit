@@ -15,10 +15,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={urbanist.className}>
-        <Navbar />
+        {/* <Navbar /> */}
         {children}
-        <Social />
-        <Footer />
+        {/* <Social />
+        <Footer /> */}
       </body>
     </html>
   );

@@ -1,7 +1,5 @@
-import React from "react";
-import Container from "../components/ui/Container";
-import BlogHeader from "../components/blog/BlogHeader";
-import BlogSection from "../components/blog/BlogSection";
+import BlogHeader from "@/app/components/blog/BlogHeader";
+import BlogSection from "@/app/components/blog/BlogSection";
 
 const BlogPage = () => {
   return (
