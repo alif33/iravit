@@ -17,9 +17,21 @@ const About = () => {
         <div className=" gap-16 flex flex-row items-end">
           {/* Left */}
           <div className=" w-7/12 gap-8 grid grid-cols-5 ">
-            <Image className="col-span-3  w-full" src={aboutImage1} alt={"about image"} />
-            <Image className="col-span-2  w-full" src={aboutImage2} alt={"about image"} />
-            <Image className="col-span-5  w-full" src={aboutImage3} alt={"about image"} />
+            <Image
+              className="col-span-3  w-full"
+              src={aboutImage1}
+              alt={"about image"}
+            />
+            <Image
+              className="col-span-2  w-full"
+              src={aboutImage2}
+              alt={"about image"}
+            />
+            <Image
+              className="col-span-5  w-full"
+              src={aboutImage3}
+              alt={"about image"}
+            />
           </div>
           {/* Right */}
           <div className=" w-5/12 ">
@@ -33,7 +45,7 @@ const About = () => {
             </p>
             <div className="mb-8 mt-6 flex flex-col gap-4">
               <div className="flex flex-row gap-4 items-center ">
-                <Image src={aboutIcon1} alt="about icons"  />
+                <Image src={aboutIcon1} alt="about icons" />
                 <p className=" text-greyscale-950 text-lg font-urbanist leading-7 font-normal ">
                   We guide and support you along your journey of loss, giving
                   you the tools to navigate ..
@@ -47,7 +59,11 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <Button text="Get in touch" />
+            <Button
+              bgColor={"bg-brand-1 text-white"}
+              btnPadding={"py-3 px-6"}
+              text="Get in touch"
+            />
           </div>
         </div>
       </Container>

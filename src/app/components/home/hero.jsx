@@ -21,7 +21,11 @@ const Hero = () => {
             </p>
             <div className="flex flex-row gap-5 mt-8">
               <div className="">
-                <Button text="Try For Free" />
+                <Button
+                  bgColor={"bg-brand-1 text-white"}
+                  btnPadding={"py-3 px-6"}
+                  text="Try For Free"
+                />
               </div>
               <div className="">
                 <OutlineButton text="Watch Video" />
