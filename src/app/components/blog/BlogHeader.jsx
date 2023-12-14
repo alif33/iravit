@@ -5,7 +5,7 @@ import { IoSearch } from "react-icons/io5";
 
 const BlogHeader = () => {
   return (
-    <div className="">
+    <div className="my-20">
       <Container>
         <div className="mx-auto max-w-3xl text-center">
           <h3 className="text-brand-2 mb-8 text-center font-poppins text-h3">
