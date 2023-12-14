@@ -4,6 +4,7 @@ import Customers from "@/app/components/home/customers";
 import Hero from "@/app/components/home/hero";
 import Members from "@/app/components/home/members";
 import Packages from "@/app/components/home/packages";
+import Reviews from "@/app/components/home/reviews";
 import Services from "@/app/components/ui/Services";
 
 const HomePage = () => {
@@ -25,8 +26,10 @@ const HomePage = () => {
           { name: "Online financial exchanges for currency " },
         ]}
       />
+
       <Members />
       <Packages />
+      <Reviews />
       <News />
     </div>
   );
