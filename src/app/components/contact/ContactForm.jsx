@@ -5,7 +5,7 @@ import ContactCard from "./ContactCard";
 import fbIcon from "../../../assets/contact/Facebook.png";
 import instagramIcon from "../../../assets/contact/Instagram.png";
 import twitterIcon from "../../../assets/contact/Twitter.png";
-import Button from "../ui/Button";
+import "./contactform.css";
 
 const ContactForm = () => {
   const handleSubmit = (e) => {
@@ -13,7 +13,7 @@ const ContactForm = () => {
     console.log("submit");
   };
   return (
-    <div>
+    <div className="py-24 contact-form ">
       <Container>
         <div className="flex flex-row gap-10">
           {/* form left */}
