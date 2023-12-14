@@ -29,7 +29,6 @@ const HomePage = () => {
 
       <Members />
       <Packages />
-      <Reviews />
       <News />
     </div>
   );
