@@ -16,8 +16,9 @@ const Hero = () => {
               Developing Innovative Solutions
             </h1>
             <p className="text-lg mt-6 text-greyscale-600 font-urbanist">
-              we are a startup based on solutions.
-              <br /> what you're searching for, and we'll find and make!
+              {"we are a startup based on solutions."}
+              <br />
+              {"what you're searching for, and we'll"}
             </p>
             <div className="flex flex-row gap-5 mt-8">
               <div className="">

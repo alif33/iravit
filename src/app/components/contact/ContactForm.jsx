@@ -22,8 +22,9 @@ const ContactForm = () => {
               Send us a <br /> message
             </h2>
             <p className="text-lg font-urbanist font-normal text-grey-400">
-              Fill out the form and our team will get back to you as quickly as
-              we can. you'll be able to build with ease.
+              {
+                " Fill out the form and our team will get back to you as quickly as              we can. you'll be able to build with ease."
+              }
             </p>
             <div className="grid mt-10 grid-cols-2 gap-3">
               <ContactCard

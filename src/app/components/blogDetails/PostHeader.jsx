@@ -8,7 +8,12 @@ const BlogDetailsHeader = () => {
   return (
     <div>
       <Container>
-        <Image src={bannerImage1} height={500} width="100%" />
+        <Image
+          src={bannerImage1}
+          height={500}
+          alt="Banner Image"
+          width="100%"
+        />
         <div className="my-8">
           <h2 className="text-h2 pt-6 font-poppins text-grey-900 font-semibold leading-tight">
             Facebook Marketing To Boost Your Money in 2023

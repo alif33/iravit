@@ -13,7 +13,11 @@ const Footer = () => {
         <div className="flex flex-row justify-between items-center w-full gap-10">
           {/* left footer */}
           <div className="w-3/12">
-            <Image src={logo} className="w-[95px] h-[44px] " alt={"Footer logo"} />
+            <Image
+              src={logo}
+              className="w-[95px] h-[44px] "
+              alt={"Footer logo"}
+            />
             <p className="my-10">
               We create amazing Webflow templatesfor creative people all around
               the world.
@@ -38,7 +42,8 @@ const Footer = () => {
               <FooterSocialLinks />
             </div>
             <p className="font-poppins font-semibold text-[28px] mt-5">
-              Let's work together. <br /> Just drop me a line - info@mail.com
+              {"Let's work together."} <br />
+              {" Just drop me a line -  info@mail.com"}
             </p>
           </div>
         </div>
