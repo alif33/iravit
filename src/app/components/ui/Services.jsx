@@ -9,10 +9,10 @@ const Services = ({ list, title, subtitle, titleColor }) => {
   return (
     <div className="mb-20 mt-32">
       <Container>
-        <div className="flex flex-row justify-between gap-24">
-          <div className="w-4/12">
+        <div className="flex flex-col lg:flex-row  justify-between gap-24">
+          <div className="w-full lg:w-4/12">
             <h3
-              className={`text-h3 font-poppins font-semibold ${titleColor} mb-3 `}
+              className={` text-[32px] leading-tight lg:text-h3 font-poppins font-semibold ${titleColor} mb-3 `}
             >
               {title}
             </h3>
@@ -39,7 +39,7 @@ const Services = ({ list, title, subtitle, titleColor }) => {
               btnPadding={"py-3 px-5"}
             />
           </div>
-          <div className="w-8/12">
+          <div className="w-full lg:w-8/12">
             <Image
               src={serviceImage}
               className="w-full h-full"

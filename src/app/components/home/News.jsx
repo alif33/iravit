@@ -9,11 +9,11 @@ const News = () => {
   return (
     <div className="my-44">
       <Container>
-        <h3 className="text-brand-2 mb-16 text-center leading-tight font-semibold font-poppins text-h3">
+        <h3 className="text-brand-2 mb-16 text-center leading-tight font-semibold font-poppins text-[32px]   lg:text-h3">
           Our latest News <br />
           and articles
         </h3>
-        <div className="flex flex-row gap-5">
+        <div className="flex flex-col lg:flex-row gap-5">
           <NewsCard
             image={newsImage1}
             author={"BLOG, Saas"}

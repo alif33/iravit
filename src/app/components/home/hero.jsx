@@ -8,14 +8,14 @@ import Container from "../ui/Container";
 const Hero = () => {
   return (
     <Container>
-      <div className="flex flex-row mt-20 items-center justify-between ">
+      <div className="flex xl:flex-row flex-col mt-20 items-center justify-between ">
         {/* Hero left */}
         <div className="flex flex-col flex-1">
           <div className="max-w-[464px] ">
-            <h1 className="text-h1 font-poppins  text-brand-2 font-semibold leading-[80px]">
+            <h1 className="xl:text-h1 text-4xl leading-tight font-poppins  text-brand-2 font-semibold xl:leading-[80px]">
               Developing Innovative Solutions
             </h1>
-            <p className="text-lg mt-6 text-greyscale-600 font-urbanist">
+            <p className="text-lg mt-6 text-grey-600 font-urbanist">
               {"we are a startup based on solutions."}
               <br />
               {"what you're searching for, and we'll"}

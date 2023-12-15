@@ -10,7 +10,7 @@ const Packages = () => {
   return (
     <div className="my-20">
       <Container>
-        <h3 className="text-brand-2 mb-10 text-center leading-tight font-semibold font-poppins text-h3">
+        <h3 className="text-brand-2 mb-10 text-center leading-tight font-semibold font-poppins text-[32px] text:text-h3">
           Choose a plan that <br /> works for you
         </h3>
         {/* toggle button */}
@@ -37,7 +37,7 @@ const Packages = () => {
           </button>
         </div>
         {/* Packages */}
-        <div className="flex flex-row justify-between gap-7">
+        <div className="flex flex-col lg:flex-row justify-between gap-7">
           <PackageCard
             name="Starter"
             price={"5.00"}

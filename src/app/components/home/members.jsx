@@ -11,10 +11,10 @@ const Members = () => {
     <div className="my-32 ">
       <Container>
         <div className="">
-          <h3 className="text-brand-2 leading-tight font-semibold font-poppins text-h3">
+          <h3 className="text-brand-2 leading-tight font-semibold font-poppins text-[32px] lg:text-h3">
             Our top class <br /> team members
           </h3>
-          <div className="flex mt-12 flex-row gap-6 justify-between">
+          <div className="flex mt-12 flex-col lg:flex-row gap-6 justify-between">
             <MemberCard
               btnColor="text-white"
               btnBg={"bg-[#FFFFFF33] "}

@@ -11,12 +11,12 @@ const Reviews = () => {
   return (
     <div className="py-28">
       <Container>
-        <h3 className="text-brand-2 mb-16 text-center leading-tight font-semibold font-poppins text-h3">
+        <h3 className="text-brand-2 mb-16 text-center leading-tight font-semibold font-poppins lg:text-h3 text-[32px]">
           Trusted by <br /> over 4,000 clients worldwide
         </h3>
         {/* carosule container */}
         <div className="">
-          <div className="flex flex-row">
+          <div className="flex flex-col lg:flex-row">
             <ReviewCard
               active={true}
               review={

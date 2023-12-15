@@ -12,13 +12,13 @@ const Navbar = ({ children }) => {
         {/* Navbar Left */}
         <div className="flex-1">
           <Link href="/">
-            <Image src={logo} width={100} height={20} alt={"logo"}  />
+            <Image src={logo} width={100} height={20} alt={"logo"} />
           </Link>
         </div>
         {/* Navbar Right */}
-          <div className="flex-1 gap-5 flex flex-row items-center justify-end">
-        <AllLinks />
-          </div>
+        <div className="flex-1  md:flex hidden gap-5 lg:flex flex-row items-center justify-end">
+          <AllLinks />
+        </div>
       </div>
     </Container>
   );
