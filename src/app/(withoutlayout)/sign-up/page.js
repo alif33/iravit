@@ -16,7 +16,7 @@ const SignUp = () => {
 
   const handleSignUp = (e) => {
     e.preventDefault();
-    console.log("Siggnup");
+    alert("Siggnup Successfull");
   };
   return (
     <div className="">
