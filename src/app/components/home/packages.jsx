@@ -10,7 +10,7 @@ const Packages = () => {
   return (
     <div className="my-20">
       <Container>
-        <h3 className="text-brand-2 mb-10 text-center leading-tight font-semibold font-poppins text-[32px] text:text-h3">
+        <h3 className="text-brand-2 mb-10 text-center leading-tight font-semibold font-poppins text-[32px] lg:text-h3">
           Choose a plan that <br /> works for you
         </h3>
         {/* toggle button */}

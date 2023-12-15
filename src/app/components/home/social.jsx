@@ -38,7 +38,7 @@ const Social = () => {
           {/* Social Right */}
           <div className=" flex-1">
             <h2
-              className="font-poppins text-center lg:text-center
+              className="font-poppins text-center lg:text-left
              font-semibold lg:text-h2 text-[32px] leading-9 text-white lg:leading-[60px] mb-12"
             >
               Helping you overcome your any kind of technology challenges

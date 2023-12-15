@@ -43,7 +43,7 @@ const Footer = () => {
             <div className="flex flex-row lg:gap-2 gap-1 justify-between text-lg lg:text-xl text-white font-urbanist font-semibold">
               <FooterSocialLinks />
             </div>
-            <p className="font-poppins font-semibold text-[28px] mt-5 lg:w-auto max-w-[280px] mx-auto">
+            <p className="font-poppins font-semibold lg:text-2xl text-[28px] mt-5  max-w-[280px] lg:max-w-max mx-auto">
               {"Let's work together."} <br />
               {" Just drop me a line -  info@mail.com"}
             </p>

@@ -15,7 +15,7 @@ const Customers = () => {
           We take care of more than{" "}
           <span className="font-bold underline">1000+</span> customers
         </p>
-        <div className="xl:flex xl:flex-row  grid text-center grid-cols-3 border-b border-gray-200 py-5 xl:justify-between  items-center">
+        <div className="lg:flex lg:flex-row  grid text-center grid-cols-3 border-b border-gray-200 py-5 lg:justify-between  items-center">
           <Image src={customerImage5} alt={"Customer Image"} />
           <Image src={customerImage4} alt={"Customer Image"} />
           <Image src={customerImage1} alt={"Customer Image"} />
