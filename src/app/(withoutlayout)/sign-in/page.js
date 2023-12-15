@@ -11,7 +11,10 @@ import { IoEye } from "react-icons/io5";
 
 const SignIn = () => {
   const [showPassword, setShowPassowrd] = useState(false);
-  console.log(showPassword);
+  const handleSignIn = (e) => {
+    e.preventDefault();
+    alert("Login Successfull");
+  };
   return (
     <div className="">
       <Container>
@@ -26,7 +29,7 @@ const SignIn = () => {
             <h2 className="text-[#233B58] mb-8 leading-tight text-[40px] font-semibold">
               Login in to <br /> your account
             </h2>
-            <form action="" className="">
+            <form onSubmit={handleSignIn} className="">
               {/* Email Field */}
               <div className="flex flex-col mb-8 gap-2">
                 <label
@@ -36,6 +39,7 @@ const SignIn = () => {
                   Email Address
                 </label>
                 <input
+                  required
                   className=" bg-grey-200 duration-300 focus:shadow-md focus:shadow-grey-400 focus:bg-white outline-none p-5 text-base placeholder:text-[#233B58] text-[#233B58] font-jakarta font-normal leading-[18px] rounded-md"
                   type="email"
                   name="email"
@@ -52,6 +56,7 @@ const SignIn = () => {
                 </label>
                 <div className="w-full relative">
                   <input
+                    required
                     className="bg-grey-200 duration-300 focus:shadow-md focus:shadow-grey-400 focus:bg-white   outline-none p-5 w-full text-base placeholder:text-[#233B58] text-[#233B58] font-jakarta font-normal leading-[18px] rounded-md"
                     type={showPassword ? "text" : "password"}
                     name="password"
@@ -76,7 +81,7 @@ const SignIn = () => {
               <input
                 type="submit"
                 value="Login"
-                className="bg-brand-1 text-white font-semibold text-base font-jakarta py-5 px-10 w-full rounded-md mt-16"
+                className="bg-brand-1 cursor-pointer text-white font-semibold text-base font-jakarta py-5 px-10 w-full rounded-md mt-16"
               />
             </form>
 
