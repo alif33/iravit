@@ -24,7 +24,7 @@ const ResetPassword = () => {
         </div>
         <div className="flex justify-between  flex-row gap-10">
           {/* login left */}
-          <div className="w-4/12 ">
+          <div className="w-4/12 h-full ">
             <h2 className="text-[#233B58] mb-8 leading-tight text-[40px] font-semibold">
               Create new <br /> password
             </h2>
@@ -83,8 +83,12 @@ const ResetPassword = () => {
             </p>
           </div>
           {/* login right */}
-          <div className="w-8/12   flex justify-end ">
-            <Image src={resetPasswordImage} alt="Login Image" />
+          <div className="w-8/12 h-[85vh]  flex justify-end   ">
+            <Image
+              className="h-[90%]"
+              src={resetPasswordImage}
+              alt="Login Image"
+            />
           </div>
         </div>
       </Container>
