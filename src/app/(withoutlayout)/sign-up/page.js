@@ -109,15 +109,15 @@ const SignUp = () => {
               Signup with Google
             </button>
             <p className="text-grey-800 mt-3 font-jakarta leading-[18px] font-normal text-sm ">
-              Don’t have an account?{" "}
+              Already have an account?
               <Link href="/sign-in">
-                <span className="text-brand-1">Login here.</span>
+                <span className="text-brand-1">Login here</span>
               </Link>
             </p>
           </div>
           {/* login right */}
-          <div className="w-8/12  items-centerflex justify-end ">
-            <Image className="" src={signUpImage} alt="Login Image" />
+          <div className="w-8/12 items-centerflex justify-end ">
+            <Image src={signUpImage} alt="Login Image" />
           </div>
         </div>
       </Container>
