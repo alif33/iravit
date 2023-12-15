@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="bg-brand-2 text-white pt-20 pb-12">
       <Container>
         {/* footer top */}
-        <div className="lg:flex grid grid-cols-2 lg:flex-row justify-between lg:items-center w-full lg:gap-10 gap-8 items-start">
+        <div className="lg:flex grid grid-cols-2 lg:flex-row justify-between lg:items-center w-full lg:gap-10 gap-5 items-start">
           {/* left footer */}
           <div className="lg:w-3/12 w-full">
             <Image
@@ -23,9 +23,12 @@ const Footer = () => {
               the world.
             </p>
             <div className="w-full">
-              <button className="flex w-full  flex-row gap-2 bg-brand-1 py-2 px-4 text-sm text-white">
+              <button
+                className="flex w-full items-center
+              justify-center  flex-row gap-1 lg:gap-2 bg-brand-1 py-2 px-4 text-xs lg:text-sm text-white"
+              >
                 <IoCallOutline />
-                (973) 068 2300
+                <span className="text"> (973) 068 2300</span>
               </button>
             </div>
           </div>
