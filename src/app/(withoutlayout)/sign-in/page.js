@@ -27,6 +27,7 @@ const SignIn = () => {
               Login in to <br /> your account
             </h2>
             <form action="" className="">
+              {/* Email Field */}
               <div className="flex flex-col mb-8 gap-2">
                 <label
                   htmlFor="email"
@@ -35,13 +36,13 @@ const SignIn = () => {
                   Email Address
                 </label>
                 <input
-                  className="shadow-md shadow-grey-500 outline-none p-5 text-base placeholder:text-[#233B58] text-[#233B58] font-jakarta font-normal leading-[18px] rounded-md"
+                  className=" bg-grey-200 duration-300 focus:shadow-md focus:shadow-grey-400 focus:bg-white outline-none p-5 text-base placeholder:text-[#233B58] text-[#233B58] font-jakarta font-normal leading-[18px] rounded-md"
                   type="email"
                   name="email"
                   id="email"
-                  placeholder="myemail@address.com"
                 />
-              </div>{" "}
+              </div>
+              {/* Name Field */}
               <div className="flex  flex-col mb-3 gap-2">
                 <label
                   htmlFor="password"
@@ -51,7 +52,7 @@ const SignIn = () => {
                 </label>
                 <div className="w-full relative">
                   <input
-                    className="bg-grey-200  outline-none p-5 w-full text-base placeholder:text-[#233B58] text-[#233B58] font-jakarta font-normal leading-[18px] rounded-md"
+                    className="bg-grey-200 duration-300 focus:shadow-md focus:shadow-grey-400 focus:bg-white   outline-none p-5 w-full text-base placeholder:text-[#233B58] text-[#233B58] font-jakarta font-normal leading-[18px] rounded-md"
                     type={showPassword ? "text" : "password"}
                     name="password"
                     id="password"
