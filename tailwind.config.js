@@ -31,6 +31,7 @@ module.exports = {
         h3: "44px",
       },
       fontFamily: {
+        jakarta: ["Plus Jakarta Sans"],
         poppins: ["Poppins", "sans-serif"],
         urbanist: ["Urbanist", "sans-serif"],
       },
