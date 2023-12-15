@@ -40,13 +40,21 @@ const Reviews = () => {
               designation={"CEO at Coffee"}
             />
           </div>
-          <div className="flex flex-row justify-end items-center gap-4">
-            <button className="text-2xl text-grey-600">
-              <IoMdArrowRoundBack />
-            </button>
-            <button className="">
-              <FaArrowRightLong className="text-2xl text-brand-1" />
-            </button>
+          <div className="my-5">
+            <div className="text-grey-500 font-urbanist font-normal">
+              <span className="text-3xl  text-secondary-1 font-medium leading-8">
+                3
+              </span>{" "}
+              / 15
+            </div>
+            <div className="flex flex-row justify-end items-center gap-4">
+              <button className="text-2xl text-grey-600">
+                <IoMdArrowRoundBack />
+              </button>
+              <button className="">
+                <FaArrowRightLong className="text-2xl text-brand-1" />
+              </button>
+            </div>
           </div>
         </div>
       </Container>
