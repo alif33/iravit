@@ -69,13 +69,14 @@ const ResetPassword = () => {
                 className="bg-brand-1 cursor-pointer text-white font-semibold text-base font-jakarta py-5 px-10 w-full rounded-md mt-16"
               />
             </form>
-
-            <button className="flex w-full  mt-2 py-5 rounded-md gap-1 text-base font-semibold font-jakarta leading-5 text-[#233B58] flex-row items-center justify-center ">
-              <FcGoogle className="text-3xl" />
-              Login with Google
-            </button>
-            <p className="text-grey-800 mt-5 font-jakarta leading-[18px] font-normal text-sm ">
-              Don’t have an account?{" "}
+            <p className="text-grey-800 mt-10 font-jakarta leading-[18px] font-normal text-sm ">
+              Already have an account?{" "}
+              <Link href="/sign-in">
+                <span className="text-brand-1">Login here</span>
+              </Link>
+            </p>
+            <p className="text-grey-800 mt-3 font-jakarta leading-[18px] font-normal text-sm ">
+              Don’t have an account?
               <Link href="/sign-up">
                 <span className="text-brand-1">Signup here.</span>
               </Link>
