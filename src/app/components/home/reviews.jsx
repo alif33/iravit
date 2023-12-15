@@ -1,9 +1,11 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import Container from "../ui/Container";
 import ReviewCard from "./ReviewCard";
 import { IoMdArrowRoundBack } from "react-icons/io";
 
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
+import Carousel from "./Carousel";
 
 const Reviews = () => {
   return (
@@ -16,6 +18,7 @@ const Reviews = () => {
         <div className="">
           <div className="flex flex-row">
             <ReviewCard
+              active={true}
               review={
                 "Salient has enhanced our user experience and allowed us to move faster than ever and our company is now positioned to scale. We've seen a rediculous growth of 80% in just a few months! "
               }
