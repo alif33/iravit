@@ -4,7 +4,7 @@ import Services from "@/app/components/ui/Services";
 const PricingPage = () => {
   return (
     <div>
-      <Packages />
+      <Packages title={`Pricing for everyone \n and suitable`} />
       <Services
         titleColor={"text-grey-900"}
         title={"Why choose us?"}
