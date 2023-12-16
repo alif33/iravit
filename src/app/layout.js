@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "./components/base/navbar";
 import Footer from "./components/home/footer";
 import Social from "./components/home/social";
+import AuthProviders from "./providers/AuthProviders";
 
 const urbanist = Urbanist({ subsets: ["latin"] });
 
@@ -14,12 +15,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={urbanist.className}>
-        {/* <Navbar /> */}
-        {children}
-        {/* <Social />
-        <Footer /> */}
-      </body>
+      <AuthProviders>
+        <body className={urbanist.className}>{children}</body>
+      </AuthProviders>
     </html>
   );
 }

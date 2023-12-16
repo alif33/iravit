@@ -6,8 +6,11 @@ import Members from "@/app/components/home/members";
 import Packages from "@/app/components/home/packages";
 import Reviews from "@/app/components/home/reviews";
 import Services from "@/app/components/ui/Services";
+import { AuthContext } from "@/app/providers/AuthProviders";
 
 const HomePage = () => {
+  const { user } = AuthContext;
+  console.log(user);
   return (
     <div>
       <Hero />

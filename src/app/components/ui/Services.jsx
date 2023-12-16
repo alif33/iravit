@@ -16,7 +16,10 @@ const Services = ({ list, title, subtitle, titleColor }) => {
             >
               {title}
             </h3>
-            <p className="text-lg mb-6  font-urbanist text-grey-500">
+            <p
+              className="text-sm
+             lg:text-lg mb-6  font-urbanist text-grey-500"
+            >
               {subtitle}
             </p>
             <div className="my-10">
@@ -26,7 +29,10 @@ const Services = ({ list, title, subtitle, titleColor }) => {
                   className="flex  mb-5 flex-row gap-2 items-center"
                 >
                   <Image src={iconImage} alt="Package Card" />
-                  <p className="text-[16px] font-semibold  leading-7 font-urbanist">
+                  <p
+                    className="lg:textxm
+                  text-base font-semibold  leading-7 font-urbanist"
+                  >
                     {item.name}
                   </p>
                 </div>

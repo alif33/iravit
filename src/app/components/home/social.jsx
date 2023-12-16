@@ -10,22 +10,28 @@ import Button from '../ui/Button'
 
 const Social = () => {
   return (
-    <div className="py-32  bg-grey-950">
+    <div className="py-20 lg:py-32  bg-grey-950">
       <Container>
         <div className="flex flex-col lg:flex-row gap-14 items-center justify-between ">
           {/* Social Left */}
           <div className="flex flex-col w-full flex-1 gap-6">
             <div className="flex flex-row flex-1 w-full gap-6 overflow-hidden">
-              <Image
-                className="col-span-2  w-auto"
-                src={socialImage1}
-                alt="Social Image"
-              />
-              <Image
-                className="col-span-3  pt-16 w-full"
-                src={socialImage2}
-                alt="Social Image"
-              />
+              <div className="col-span-1 lg:col-span-2">
+                {" "}
+                <Image
+                  className="  w-full lg:w-auto"
+                  src={socialImage1}
+                  alt="Social Image"
+                />
+              </div>
+              <div className="col-span-2 lg:col-span-3  ">
+                <Image
+                  className=" w-full pt-7 lg:pt-16
+                  "
+                  src={socialImage2}
+                  alt="Social Image"
+                />
+              </div>
             </div>
             <div className="flex-1">
               <Image

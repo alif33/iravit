@@ -8,13 +8,13 @@ import PackageCard from "../home/PackageCard";
 const PricePackages = () => {
   const [toggleButton, setToggleButton] = useState(FaLinesLeaning);
   return (
-    <div className="my-20">
+    <div className="my-14 lg:my-20">
       <Container>
         <div className="max-w-3xl mx-auto">
-          <h3 className="text-brand-2 mb-10 text-center leading-tight font-semibold font-poppins text-h3">
-            Pricing for everyone <br /> and suitable
+          <h3 className="text-brand-2 mb-10 text-center leading-tight font-semibold font-poppins text-[32px] lg:text-h3">
+            Pricing for everyone <span className="lg:block">and suitable</span>
           </h3>
-          <p className=" mb-20 text-lg  text-center font-urbanist text-grey-500">
+          <p className="mb-16 lg:mb-20 text-sm leading-5 lg:text-lg  text-center font-urbanist text-grey-500">
             We started working on Taskable because we had the same problem. All
             the tasks, files, and information we needed to get work done was
             spread across Slack, email, project management tools, and cloud
@@ -45,7 +45,7 @@ const PricePackages = () => {
           </button>
         </div>
         {/* Packages */}
-        <div className="flex flex-row justify-between gap-7">
+        <div className="flex flex-col lg:flex-row justify-between gap-7">
           <PackageCard
             name="Starter"
             price={"5.00"}
