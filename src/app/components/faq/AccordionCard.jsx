@@ -13,7 +13,9 @@ const AccordionCard = ({ title, subtitle }) => {
           onClick={() => setAccordian(!accordian)}
           className="flex flex-row justify-between cursor-pointer"
         >
-          <h4 className="text-lg font-semibold text-textOne py-2">{title}</h4>
+          <h4 className=" text-sm text-left lg:text-lg font-semibold text-textOne py-2">
+            {title}
+          </h4>
           <button className="ease-in-out duration-600">
             {accordian ? (
               <IoIosArrowUp className="text-lg ease-in-out duration-600" />
@@ -30,7 +32,7 @@ const AccordionCard = ({ title, subtitle }) => {
           }`}
         >
           <div className="overflow-hidden">
-            <p className="mb-3 text-justify text-grey-500 text-base ">
+            <p className="mb-3 text-justify text-grey-500 text-sm lg:text-base ">
               {subtitle}
             </p>
           </div>
