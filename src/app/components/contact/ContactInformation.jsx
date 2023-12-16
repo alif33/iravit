@@ -7,18 +7,18 @@ import phoneIcon from "../../../assets/contact/Icon.png";
 
 const ContactInformation = () => {
   return (
-    <div className="my-32">
+    <div className="mt-10 mb-20 lg:my-32">
       <Container>
-        <div className="flex flex-row ">
-          <div className="w-4/12">
-            <h3 className="text-brand-2 mb-5 leading-tight font-semibold font-poppins text-h3">
+        <div className="flex flex-col lg:flex-row ">
+          <div className="w-full lg:w-4/12 text-center lg:text-left">
+            <h3 className="text-brand-2 mb-5 leading-tight font-semibold font-poppins text-[32px] lg:text-h3">
               Contact Us
             </h3>
-            <p className="text-grey-600 text-lg font-normal">
+            <p className="text-grey-600 text-sm lg:text-lg font-normal">
               Questions? Comments? Want to schedule a demo? We’d love to chat!
             </p>
           </div>
-          <div className="w-8/12 gap-5 flex flex-row">
+          <div className="w-full mt-20 lg:mt-auto lg:w-8/12 gap-5 flex flex-col lg:flex-row">
             <ContactCard
               cardPadding={"p-4"}
               cardBg={"bg-grey-100"}
