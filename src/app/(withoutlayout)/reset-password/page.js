@@ -22,7 +22,7 @@ const ResetPassword = () => {
             <Image src={logoImage} alt="logo" width={100} />
           </Link>
         </div>
-        <div className="flex justify-between  flex-row gap-10">
+        <div className="flex justify-between  lg:flex-row gap-10">
           {/* login left */}
           <div className="w-4/12 h-full ">
             <h2 className="text-[#233B58] mb-8 leading-tight text-[40px] font-semibold">
