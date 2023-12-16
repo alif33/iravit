@@ -15,15 +15,15 @@ const BlogSection = ({ sectionTitle }) => {
         <div className="flex flex-row justify-between">
           <BlogTitle sectionTitle={sectionTitle} />
           <div className="flex flex-row gap-3">
-            <button className="text-lg flex items-center justify-center bg-grey-200 px-3 rounded-full">
+            <button className="text-lg flex items-center justify-center bg-grey-200 px-1 lg:px-3 rounded-full">
               <IoIosArrowBack alignmentBaseline="central" />
             </button>
-            <button className="text-lg flex items-center justify-center shadow-md shadow-grey-300 px-3 rounded-full">
+            <button className="text-lg flex items-center justify-center shadow-md shadow-grey-300 px-1 lg:px-3 rounded-full">
               <IoIosArrowForward />
             </button>
           </div>
         </div>
-        <div className="flex mt-7 flex-row gap-5">
+        <div className="flex mt-7 flex-col lg:flex-row gap-5">
           <BlogCard
             image={newsImage1}
             author={"BLOG, Saas"}

@@ -43,7 +43,7 @@ const Footer = () => {
           </div>
           {/* right footer */}
           <div className="lg:w-6/12 w-full col-span-2">
-            <div className="flex flex-row lg:gap-2 gap-1 justify-between text-lg lg:text-xl text-white font-urbanist font-semibold">
+            <div className="flex flex-row lg:gap-2 gap-1 justify-between text-sm lg:text-xl text-white font-urbanist font-semibold">
               <FooterSocialLinks />
             </div>
             <p className="font-poppins font-semibold lg:text-2xl text-[28px] mt-5  max-w-[280px] lg:max-w-max mx-auto">
@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
         {/* footer bottom */}
         <div className="pt-8 border-t border-grey-500 mt-12">
-          <p className="text-center text-lg font-normal ">
+          <p className="text-center text-sm lg:text-lg font-normal ">
             © 2023 Copyright By Ideapeel Inc. All Rights Reserved.
           </p>
         </div>
