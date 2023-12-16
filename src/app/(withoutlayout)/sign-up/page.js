@@ -28,11 +28,11 @@ const SignUp = () => {
         </div>
         <div className="">
           {/* login left */}
-          <h2 className="text-[#233B58] mb-8 text-center lg:text-left leading-tight text-3xl lg:text-[40px] font-semibold">
+          <h2 className="text-[#233B58] text-center lg:text-left leading-tight text-3xl lg:text-[40px] font-semibold">
             Create account
           </h2>
           <div className="flex  justify-between items-start  flex-col-reverse lg:flex-row gap-10">
-            <div className="w-full lg:w-4/12 ">
+            <div className="w-full pt-8 lg:w-4/12 ">
               <form onSubmit={handleSignUp} className="">
                 {/* Name Field */}
                 <div className="flex flex-col mb-3 lg:mb-6 gap-2">
@@ -109,7 +109,7 @@ const SignUp = () => {
                 <FcGoogle className="text-3xl" />
                 Signup with Google
               </button>
-              <p className="text-grey-800 lg:mt-3 mb-5 font-jakarta leading-[18px] font-normal text-sm ">
+              <p className="text-grey-800 lg:mt-3 mb-5  lg:mb-0 font-jakarta leading-[18px] font-normal text-sm ">
                 Already have an account?
                 <Link href="/sign-in">
                   <span className="text-brand-1">Login here</span>
@@ -117,8 +117,8 @@ const SignUp = () => {
               </p>
             </div>
             {/* login right */}
-            <div className="w-full lg:w-8/12 items-centerflex justify-end ">
-              <Image src={signUpImage} alt="Login Image" />
+            <div className="w-full  lg:w-8/12 items-centerflex justify-end ">
+              <Image className="" src={signUpImage} alt="Login Image" />
             </div>
           </div>
         </div>
