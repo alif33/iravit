@@ -33,6 +33,7 @@ const Navbar = ({ children }) => {
           {/* Sidebar */}
 
           <div
+            onClick={() => setSideMenu(false)}
             className={`h-screen p-5 fixed flex flex-col  duration-500 ${
               sidemenu ? " top-0 right-0 w-full " : "hidden "
             }
