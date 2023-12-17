@@ -11,9 +11,15 @@ const AllLinks = () => {
       >
         Blog
       </Link>
-      <Link href="/price">Pricing</Link>
-      <Link href="/contact">Contact</Link>
-      <Link href="/faq">FAQ</Link>
+      <Link href="/price text-lg text-[04091E] font-medium font-urbanist">
+        Pricing
+      </Link>
+      <Link href="/contact text-lg text-[04091E] font-medium font-urbanist">
+        Contact
+      </Link>
+      <Link href="/faq text-lg text-[04091E] font-medium font-urbanist">
+        FAQ
+      </Link>
       <div className="flex md:ml-5 flex-row gap-5 text-lg text-[04091E] font-medium font-urbanist items-center">
         <Link href="/sign-in">
           <button className="py-2 px-3 ring-[1px] ring-gray-400 rounded-md">

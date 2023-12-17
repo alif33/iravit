@@ -1,10 +1,11 @@
 "use client";
+
 import React, { useState } from "react";
 import Container from "../ui/Container";
 import ReviewCard from "./ReviewCard";
 import { IoMdArrowRoundBack } from "react-icons/io";
-
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
+
 import Carousel from "./Carousel";
 
 const Reviews = () => {
@@ -40,11 +41,12 @@ const Reviews = () => {
               designation={"CEO at Coffee"}
             />
           </div>
+
           <div className="my-5">
             <div className="text-grey-500 font-urbanist font-normal">
               <span className="text-3xl  text-secondary-1 font-medium leading-8">
                 3
-              </span>{" "}
+              </span>
               / 15
             </div>
             <div className="flex flex-row justify-end items-center gap-4">
