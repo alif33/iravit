@@ -1,6 +1,7 @@
 import { Urbanist } from "next/font/google";
 import "./globals.css";
-import Cursor from "@/components/Coursor/Cousor";
+import Cursor from "./components/Cursor/Cursor";
+
 
 const urbanist = Urbanist({ subsets: ["latin"] });
 
@@ -12,8 +13,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={urbanist.className}>{children}</body>
-     
+      <body className={urbanist.className}>
+        <Cursor>{children}</Cursor>
+      </body>
     </html>
   );
 }

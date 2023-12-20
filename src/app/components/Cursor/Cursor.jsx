@@ -1,8 +1,8 @@
 "use client";
-import "./Coursor.css";
 import React, { useEffect } from "react";
+import "./Cursor.css";
 
-const Cursor = () => {
+const Cursor = ({ children }) => {
   useEffect(() => {
     const handleMouseMove = (e) => {
       const dot = document.querySelector("[data-cursor-dot]");
@@ -37,6 +37,7 @@ const Cursor = () => {
     <div>
       <div className="cursor-dot" data-cursor-dot></div>
       <div className="cursor-outline" data-cursor-outline></div>
+      {children}
     </div>
   );
 };
