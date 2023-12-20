@@ -20,7 +20,7 @@ const BlogHeader = () => {
           <form className=" lg:mx-5 flex items-center relative">
             <input
               type="text "
-              className="border placeholder:text-[8px] w-full border-grey-300 outline-brand-1  lg:p-6  py-2 px-3 rounded-full"
+              className="border  placeholder:text-[8px] placeholder:lg:text-lg w-full border-grey-300 outline-brand-1  lg:p-6  py-2 px-3 rounded-full"
               name="search"
               placeholder="Type keyword here"
             />

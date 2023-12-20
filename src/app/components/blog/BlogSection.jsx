@@ -15,7 +15,7 @@ const BlogSection = ({ sectionTitle }) => {
         <div className="flex flex-row justify-between">
           <BlogTitle sectionTitle={sectionTitle} />
           <div className="flex flex-row gap-3">
-            <button className="text-lg flex items-center justify-center bg-grey-200 px-1 lg:px-3 rounded-full">
+            <button className="text-lg  flex items-center justify-center bg-grey-200 px-1 lg:px-3 py-0 lg:py-3 rounded-full">
               <IoIosArrowBack alignmentBaseline="central" />
             </button>
             <button className="text-lg flex items-center justify-center shadow-md shadow-grey-300 px-1 lg:px-3 rounded-full">
