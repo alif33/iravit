@@ -23,6 +23,14 @@ module.exports = {
         "grey-800": "#212936",
         "grey-900": "#0B0A0F",
         "grey-950": "#04091E",
+        "primary-bg": "#2A9D8F",
+        pera: "#060606",
+        heading: "#0B1934",
+        dividor: "#FFB84F",
+        secondary: "#299FF4",
+        heading2: "ffb84f",
+        "section-1-bg": "#0095D8",
+        "section-2-bg": "#00958D",
       },
 
       fontSize: {
