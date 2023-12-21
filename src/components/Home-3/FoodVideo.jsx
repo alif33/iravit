@@ -16,9 +16,9 @@ const FoodVideo = () => {
             <span className="text-brand-1">healthy body</span>
           </h2>
           <p className="lg:w-5/12 text-base font-normal leading-6">
-            In these videos, we'll share insights, techniques, and practices
-            that can help you manage stress, increase happiness, and achieve
-            optimal Nutrition Plan
+            {
+              "In these videos, we'll share insights, techniques, and practices that can help you manage stress, increase happiness, and achieve optimal Nutrition Plan"
+            }
           </p>
         </div>
         {/* bottm  */}
