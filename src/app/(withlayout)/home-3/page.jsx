@@ -1,4 +1,5 @@
 import Hero from "@/components/Home-3/Hero";
+import Menu from "@/components/Home-3/Menu";
 import Nutrition from "@/components/Home-3/Nutrition";
 
 import Sponsor from "@/components/Home-3/Sponsor";
@@ -10,6 +11,7 @@ const HomeThreePage = () => {
       <Hero />
       <Sponsor />
       <Nutrition />
+      <Menu />
     </div>
   );
 };

@@ -3,6 +3,8 @@ import React from "react";
 import Container from "../Container/Container";
 import NutritionCard from "./NutritionCard";
 import { LuApple } from "react-icons/lu";
+import { FaHandHoldingMedical } from "react-icons/fa6";
+import { RiMentalHealthFill } from "react-icons/ri";
 
 const Nutrition = () => {
   return (
@@ -23,9 +25,31 @@ const Nutrition = () => {
             </div>
           </div>
           {/* bottom */}
-          <div className="py-10 bg-yellow-800">
-            <NutritionCard>
+          <div className="mt-14 flex-row flex gap-5 justify-between">
+            <NutritionCard
+              title={"Learn to eat healthy food"}
+              details={
+                "Lorem ipsum dolor sit amet ecteturolmer adipiscing elit sed do eiusmod."
+              }
+            >
               <LuApple />
+            </NutritionCard>
+            <NutritionCard
+              cssStyle={"activeCard"}
+              title={"Learn to eat healthy food"}
+              details={
+                "Lorem ipsum dolor sit amet ecteturolmer adipiscing elit sed do eiusmod."
+              }
+            >
+              <FaHandHoldingMedical />
+            </NutritionCard>
+            <NutritionCard
+              title={"Learn to eat healthy food"}
+              details={
+                "Lorem ipsum dolor sit amet ecteturolmer adipiscing elit sed do eiusmod."
+              }
+            >
+              <RiMentalHealthFill />
             </NutritionCard>
           </div>
         </div>
