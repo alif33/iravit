@@ -8,7 +8,7 @@ import Image from "next/image";
 
 const Menu = () => {
   return (
-    <div className="font-urbanist mt-40 mb-10 bg-[#2A9D8F14] pt-20 pb-28">
+    <div className="font-urbanist mt-40 bg-[#2A9D8F14] pt-20 pb-28">
       <Container>
         <div className="flex flex-row gap-28">
           {/* left */}

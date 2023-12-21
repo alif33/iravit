@@ -1,3 +1,4 @@
+import FoodVideo from "@/components/Home-3/FoodVideo";
 import Hero from "@/components/Home-3/Hero";
 import Menu from "@/components/Home-3/Menu";
 import Nutrition from "@/components/Home-3/Nutrition";
@@ -12,6 +13,7 @@ const HomeThreePage = () => {
       <Sponsor />
       <Nutrition />
       <Menu />
+      <FoodVideo />
     </div>
   );
 };
