@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.0 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.6 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -32,11 +32,9 @@
 4. Use the user's configured `sans` font-family by default.
 5. Use the user's configured `sans` font-feature-settings by default.
 6. Use the user's configured `sans` font-variation-settings by default.
-7. Disable tap highlights on iOS
 */
 
-html,
-:host {
+html {
   line-height: 1.5;
   /* 1 */
   -webkit-text-size-adjust: 100%;
@@ -46,14 +44,12 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
   font-variation-settings: normal;
   /* 6 */
-  -webkit-tap-highlight-color: transparent;
-  /* 7 */
 }
 
 /*
@@ -580,6 +576,10 @@ video {
   right: 0.75rem;
 }
 
+.right-6 {
+  right: 1.5rem;
+}
+
 .top-0 {
   top: 0px;
 }
@@ -602,6 +602,10 @@ video {
 
 .top-\[40\%\] {
   top: 40%;
+}
+
+.top-\[70px\] {
+  top: 70px;
 }
 
 .-z-10 {
@@ -1001,10 +1005,6 @@ video {
   overflow: hidden;
 }
 
-.text-balance {
-  text-wrap: balance;
-}
-
 .rounded-2xl {
   border-radius: 1rem;
 }
@@ -1101,6 +1101,15 @@ video {
   background-color: rgb(42 157 143 / var(--tw-bg-opacity));
 }
 
+.bg-dividor {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 184 79 / var(--tw-bg-opacity));
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1140,6 +1149,11 @@ video {
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .px-7 {
@@ -1313,6 +1327,10 @@ video {
   font-size: 52px;
 }
 
+.text-\[60px\] {
+  font-size: 60px;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -1406,6 +1424,10 @@ video {
   line-height: 58px;
 }
 
+.leading-\[79px\] {
+  line-height: 79px;
+}
+
 .leading-loose {
   line-height: 2;
 }
@@ -1445,6 +1467,11 @@ video {
   color: rgb(18 20 29 / var(--tw-text-opacity));
 }
 
+.text-\[\#157FEC\] {
+  --tw-text-opacity: 1;
+  color: rgb(21 127 236 / var(--tw-text-opacity));
+}
+
 .text-\[\#18181866\] {
   color: #18181866;
 }
@@ -1474,6 +1501,11 @@ video {
   color: rgb(116 118 129 / var(--tw-text-opacity));
 }
 
+.text-\[\#A6CBF8\] {
+  --tw-text-opacity: 1;
+  color: rgb(166 203 248 / var(--tw-text-opacity));
+}
+
 .text-\[\#FF3951\] {
   --tw-text-opacity: 1;
   color: rgb(255 57 81 / var(--tw-text-opacity));
@@ -1487,6 +1519,11 @@ video {
 .text-brand-1 {
   --tw-text-opacity: 1;
   color: rgb(42 157 143 / var(--tw-text-opacity));
+}
+
+.text-dividor {
+  --tw-text-opacity: 1;
+  color: rgb(255 184 79 / var(--tw-text-opacity));
 }
 
 .text-gray-950 {
@@ -1522,6 +1559,11 @@ video {
 .text-h4 {
   --tw-text-opacity: 1;
   color: rgb(20 20 20 / var(--tw-text-opacity));
+}
+
+.text-heading {
+  --tw-text-opacity: 1;
+  color: rgb(11 25 52 / var(--tw-text-opacity));
 }
 
 .text-heading-2 {
@@ -1728,6 +1770,10 @@ video {
 
   .lg\:block {
     display: block;
+  }
+
+  .lg\:w-1\/2 {
+    width: 50%;
   }
 
   .lg\:w-2\/6 {
