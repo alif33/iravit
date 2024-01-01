@@ -1136,6 +1136,10 @@ video {
   background-color: rgb(229 244 251 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#2A9D8F1A\] {
+  background-color: #2A9D8F1A;
+}
+
 .p-14 {
   padding: 3.5rem;
 }
@@ -1632,6 +1636,10 @@ video {
 .text-\[\#299FF4\] {
   --tw-text-opacity: 1;
   color: rgb(41 159 244 / var(--tw-text-opacity));
+}
+
+.text-\[\#2A9D8F1A\] {
+  color: #2A9D8F1A;
 }
 
 .underline {
