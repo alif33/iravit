@@ -13,70 +13,56 @@
 
 <body>
     <!-- Container -->
-    <div class="">
-        <div class="lg:max-w-6xl lg:pt-6 mx-auto px-4">
-            <!-- logo -->
-            <div class="py-5 mb-2">
-                <a href="./index.html">
-                    <Image src='./images/icons/logo-2.svg' alt="logo" width="100" />
-                </a>
-            </div>
-            <div class="">
-                <h2
-                    class="text-[#233B58] lg:mb-0 mb-5 w-full   text-[28px] leading-tight lg:text-[40px] font-semibold lg:text-left text-center ">
-                    Login in to <span class="lg:block"></span> your account
-                </h2>
-                <div class="flex  justify-between flex-col-reverse  lg:flex-row gap-10">
-                    <div class="w-full lg:pt-8 lg:w-4/12 ">
-                        <form onSubmit={handleSignIn} class="">
-                            <div class="flex flex-col mb-5 lg:mb-8 gap-2">
-                                <label htmlFor="email" class="text-sm font-jakarta text-grey-400 ">
-                                    Email Address
-                                </label>
-                                <input required
-                                    class="  duration-300 focus:shadow-lg focus:shadow-slate-300 shadow-md  shadow-grey-400 bg-white outline-none p-5 text-base placeholder:text-[#233B58] text-[#233B58] font-jakarta font-normal leading-[18px] rounded-md"
-                                    type="email" name="email" id="email" />
-                            </div>
-                            <div class="flex  flex-col mb-3 gap-2">
-                                <label htmlFor="password" class="text-sm font-jakarta text-grey-400 ">
-                                    Password
-                                </label>
-                                <div class="w-full relative">
-                                    <input required
-                                        class=" focus:shadow-lg focus:shadow-slate-30 duration-300 shadow-md shadow-grey-400 bg-white   outline-none p-5 w-full text-base placeholder:text-[#233B58] text-[#233B58] font-jakarta font-normal leading-[18px] rounded-md"
-                                        type="password" id="password" />
-                                    <img class="absolute right-3 top-4 text-2xl text-grey-500 cursor-pointer"
-                                        src="./images/icons/eye.svg" alt="" class="">
-
-                                </div>
-                            </div>
-                            <p class="text-brand-1 leading-[18px] font-normal text-sm font-jakarta">
-                                <a href="./reset-password.html">Forgot Password?</a>
-                            </p>
-                            <input type="submit" value="Login" class="cursor-pointer text-white font-urbanist bg-[#2A9D8F]
-                                font-semibold text-base py-5 px-10 w-full rounded-md mt-7 lg:mt-16" />
-                        </form>
-
-                        <button
-                            class="flex w-full  mt-2 py-5 rounded-md gap-2 text-base font-semibold font-jakarta leading-5 text-[#233B58] flex-row items-center justify-center ">
-                            <img src="./images/icons/google.svg" alt="" class="">
-                            Login with Google
-                        </button>
-                        <p
-                            class="text-grey-800 mt-3 mb-5 lg:mb-0 lg:mt-5 font-jakarta leading-[18px] font-normal text-sm ">
-                            Don’t have an account?
-                            <a href="./signup.html">
-                                <span class="text-brand-1">Signup here.</span>
-                            </a>
-                        </p>
-                    </div>
-                    <div class="w-full  lg:w-8/12   flex justify-end ">
-                        <Image class="w-[70%]" src='./images/auth/login.svg' alt="Login Image" />
-                    </div>
-                </div>
-            </div>
-            </Container>
+    <div class="lg:max-w-6xl lg:pt-6 mx-auto px-4">
+        <!-- logo -->
+        <div class="py-1 mb-2">
+            <a href="./index.html">
+                <img height="90px" width="120px" src='./images/icons/logo-2.svg' alt="logo"/>
+            </a>
         </div>
+        <div class="flex flex-col md:flex-row justify-between md:items-start gap-10">
+            <div class="basis-full sm:basis-full md:basis-1/2 pt-3">
+                <h2 class="text-[#233B58] lg:mb-0 mb-5 w-full text-[28px] leading-tight lg:text-[40px] font-semibold lg:text-left text-center ">
+                    Login into your account
+                </h2>
+                <form class="flex flex-col gap-4 pt-5">
+                    <div class="flex flex-col gap-2">
+                        <label for="email" class="text-sm font-jakarta text-grey-400">
+                            Email Address
+                        </label>
+                        <input id="email" name="email" type="email" class="input"/>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <label for="password" class="text-sm font-jakarta text-grey-400 ">
+                            Password
+                        </label>
+                        <div class="w-full relative">
+                            <input id="password" name="password" type="password" class="input w-full"/>
+                            <img src="./images/icons/eye.svg" alt="" class="absolute right-3 top-4 text-2xl text-grey-500 cursor-pointer">
+                        </div>
+                    </div>
+                    <p class="text-brand-1 leading-[18px] font-normal text-sm font-jakarta">
+                        <a href="./reset-password.html">Forgot Password?</a>
+                    </p>
+                    <input type="submit" value="Submit" class="cursor-pointer text-white font-urbanist bg-[#2A9D8F] font-semibold text-base py-3 px-10 w-full rounded-md"/>
+                </form>
+                <button
+                    class="flex w-full mt-2 py-5 rounded-md gap-2 text-base font-semibold font-jakarta leading-5 text-[#233B58] flex-row items-center justify-center ">
+                    <img src="./images/icons/google.svg" alt="" class="">
+                    Login with Google
+                </button>
+                <p class="text-grey-800 text-center mb-5 lg:mb-0 font-jakarta leading-[18px] font-normal text-sm">
+                    Don’t have an account?
+                    <a href="./signup.html">
+                        <span class="text-brand-1">Signup here.</span>
+                    </a>
+                </p>
+            </div>
+            <div class="basis-full md:basis-1/2 flex justify-end">
+                <img src='./images/auth/login.svg' alt="Login Image" />
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
