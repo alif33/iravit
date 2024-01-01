@@ -985,10 +985,6 @@ video {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.grid-rows-\[1fr\] {
-  grid-template-rows: 1fr;
-}
-
 .flex-row {
   flex-direction: row;
 }
@@ -1087,10 +1083,6 @@ video {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.overflow-hidden {
-  overflow: hidden;
 }
 
 .text-balance {
@@ -1885,10 +1877,6 @@ video {
   text-decoration-line: underline;
 }
 
-.opacity-100 {
-  opacity: 1;
-}
-
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
@@ -1979,6 +1967,89 @@ video {
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* FAQ CSS */
+
+/* .accordion-container {
+  margin: 0 40px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+} */
+
+/* .accordion-container h1 {
+  color: #333;
+} */
+
+.accordion-container .tab {
+  position: relative;
+  background: #fff;
+  padding: 0 20px 20px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.accordion-container .tab input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.accordion-container .tab label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.accordion-container .tab label::after {
+  content: "+";
+  position: absolute;
+  right: 20px;
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.1);
+  transition: transform 1s;
+}
+
+.accordion-container .tab:hover label::after {
+  color: #333;
+}
+
+.accordion-container .tab input:checked ~ label::after {
+  transform: rotate(135deg);
+}
+
+.accordion-container .tab label h2 {
+  width: 40px;
+  height: 40px;
+  background: #333;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.accordion-container .tab label h3 {
+  position: relative;
+  font-weight: 500;
+  color: #333;
+  z-index: 10;
+}
+
+.accordion-container .tab .content {
+  max-height: 0;
+  transition: 1s;
+  overflow: hidden;
+}
+
+.accordion-container .tab input:checked ~ .content {
+  max-height: 100vh;
 }
 
 .placeholder\:text-base::-moz-placeholder {
